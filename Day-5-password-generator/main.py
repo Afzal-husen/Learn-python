@@ -71,7 +71,7 @@ for char in range(1, number_of_symbols + 1):
 for char in range(1, number_of_numbers + 1):
     password += random.choice(numbers)
 
-print(password)
+# print(password)
 
 # HIGHER LEVEL PASSWORD
 password_list = [*password]
@@ -81,7 +81,7 @@ new_password = ""
 for char in password_list:
     new_password += char
 
-print(new_password)
+print(f" Your password is : {new_password}")
 
 
 
